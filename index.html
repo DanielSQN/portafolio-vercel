@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio | Tu Nombre</title>
+    <meta
+      name="description"
+      content="Portafolio profesional con proyectos, stack y formas de contacto."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top">Tu Nombre</a>
+      <nav class="site-nav" aria-label="Principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#stack">Stack</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <img
+          class="hero-image"
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80"
+          alt="Espacio de trabajo de desarrollo con laptop y monitor"
+        />
+        <div class="hero-content section-shell">
+          <p class="eyebrow">Desarrollador Full Stack</p>
+          <h1>Construyo productos claros, veloces y listos para usarse.</h1>
+          <p class="hero-copy">
+            Diseño experiencias digitales con foco en rendimiento, detalle visual
+            y resultados de negocio. Aquí están los proyectos que mejor cuentan
+            cómo trabajo.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver proyectos</a>
+            <a class="button button-secondary" href="#contacto">Hablemos</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro section-shell" aria-label="Resumen">
+        <div class="intro-grid">
+          <p class="intro-kicker">Disponible para trabajo freelance y remoto</p>
+          <p class="intro-text">
+            Me gusta convertir ideas complejas en productos que se entienden
+            rapido, cargan bien y dejan una impresion seria desde el primer clic.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-shell section-band" id="proyectos">
+        <div class="section-heading">
+          <p class="eyebrow">Proyectos seleccionados</p>
+          <h2>Trabajo reciente</h2>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+      </section>
+
+      <section class="section-shell metrics-band" id="experiencia">
+        <div class="section-heading">
+          <p class="eyebrow">Como trabajo</p>
+          <h2>Proceso y enfoque</h2>
+        </div>
+        <div class="metrics-grid">
+          <article class="metric-item">
+            <span class="metric-value">01</span>
+            <h3>Entender primero</h3>
+            <p>Antes de disenar o programar, traduzco el problema en prioridades claras.</p>
+          </article>
+          <article class="metric-item">
+            <span class="metric-value">02</span>
+            <h3>Entregar rapido</h3>
+            <p>Prefiero lanzar una version solida temprano y mejorar con feedback real.</p>
+          </article>
+          <article class="metric-item">
+            <span class="metric-value">03</span>
+            <h3>Cuidar los detalles</h3>
+            <p>Rendimiento, consistencia visual y accesibilidad no van al final.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell section-band stack-band" id="stack">
+        <div class="section-heading">
+          <p class="eyebrow">Herramientas</p>
+          <h2>Stack principal</h2>
+        </div>
+        <div class="stack-list" id="stack-list"></div>
+      </section>
+
+      <section class="section-shell contact-band" id="contacto">
+        <div class="section-heading">
+          <p class="eyebrow">Contacto</p>
+          <h2>Construyamos algo util</h2>
+        </div>
+        <div class="contact-grid">
+          <div>
+            <p class="contact-copy">
+              Si tienes una idea, una mejora pendiente o un producto que necesita
+              una mejor presencia digital, conversemos.
+            </p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="#" target="_blank" rel="noreferrer">CV</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <p>&copy; <span id="year"></span> Tu Nombre. Hecho para desplegarse en Vercel.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
