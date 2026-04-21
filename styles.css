@@ -300,6 +300,33 @@ h2 {
   gap: 1.2rem;
 }
 
+.project-empty {
+  grid-column: 1 / -1;
+  padding: 2rem;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.project-empty h3 {
+  margin-bottom: 0.7rem;
+  font-size: clamp(1.4rem, 2vw, 1.9rem);
+}
+
+.project-empty-label {
+  display: inline-block;
+  margin-bottom: 0.9rem;
+  color: var(--gold);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.project-empty-copy {
+  max-width: 42rem;
+  color: var(--muted);
+}
+
 .project-card {
   display: grid;
   grid-template-rows: 240px auto;
