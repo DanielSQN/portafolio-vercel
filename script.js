@@ -35,12 +35,12 @@ const projects = [
 ];
 
 const stack = [
-  ["Frontend", "React, Next.js, TypeScript"],
-  ["Backend", "Node.js, Express, APIs REST"],
-  ["Datos", "PostgreSQL, Firebase, Prisma"],
-  ["UI", "Figma, CSS, diseno responsive"],
-  ["Deploy", "Vercel, GitHub, CI/CD"],
-  ["Calidad", "Testing, accesibilidad, performance"],
+  ["Oracle Cloud", "Sales and Service B2B, OIC, RightNow"],
+  ["Lenguajes", "JavaScript, Python, Java, .NET"],
+  ["Integracion", "Flujos, soporte, APIs y procesos empresariales"],
+  ["Frontend", "Interfaces web, JavaScript moderno y experiencia de usuario"],
+  ["Herramientas", "GitHub, Vercel y control de versiones"],
+  ["Enfoque", "Aprendizaje continuo y crecimiento profesional constante"],
 ];
 
 const projectGrid = document.querySelector("#project-grid");
